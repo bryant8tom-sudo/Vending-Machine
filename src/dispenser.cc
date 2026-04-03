@@ -13,7 +13,6 @@ Dispenser::Dispenser(int maxCapacity) {
     }
 }
 
-// 2. Destructor
 Dispenser::~Dispenser() {
     for (int i = 0; i < count_; ++i) {
         delete items_[i];
